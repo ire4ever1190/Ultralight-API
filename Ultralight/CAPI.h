@@ -1429,7 +1429,7 @@ typedef int ULFileHandle;
 ///
 /// Handle used to denote an invalid file.
 ///
-const ULFileHandle ULInvalidFileHandle = (ULFileHandle)-1;
+#define ULInvalidFileHandle (ULFileHandle)-1;
 
 ///
 /// The callback invoked when the FileSystem wants to check if a file path
